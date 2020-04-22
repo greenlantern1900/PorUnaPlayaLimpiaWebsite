@@ -30,13 +30,13 @@ ul {
   margin: 0% 0%;
   padding: 0 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
   cursor: pointer;
 }
 
 li {
   float: left;
-  color: white;
+  color: #5e27a5;
   justify-content: center;
 }
 
@@ -59,17 +59,17 @@ li a:link
 }
 li a:visited
 {
-   color:  white;
+   color:  #5e27a5;
    text-decoration: none;
 }
 a.list-icon-colour:hover
 {
-   color:  white;
+   color:  #5e27a5;
    text-decoration: none;
 }
 li a:active
 {
-   color: white;
+   color: #5e27a5;
    text-decoration: none;
 }
 
@@ -127,22 +127,22 @@ li a:active
 
 a.list-icon-colour:link
 {
-   color: white;
+   color: #5e27a5;;
    text-decoration: none;
 }
 a.list-icon-colour:visited
 {
-   color: white;
+   color: #5e27a5;
    text-decoration: none;
 }
 a.list-icon-colour:hover
 {
-   color:  white;
+   color:  #5e27a5;;
    text-decoration: none;
 }
 a.list-icon-colour:active
 {
-   color: white;
+   color: #5e27a5;;
    text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ a.list-icon-colour:active
 }
 
 .homeActive:hover{
-  background-color: #5e27a5;
+  background-color: #000000;
 }
 
 .headerBanner {
