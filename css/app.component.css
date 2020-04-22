@@ -1,0 +1,339 @@
+html, body {
+    font-family: 'Segoe UI';
+    padding: 0;
+  }
+
+.background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-blend-mode: multiply;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+  resize: both;
+  overflow: auto;
+  position: relative;
+}
+
+.page-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 13%;
+  width: 75%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0% 0%;
+  padding: 0 0;
+  overflow: hidden;
+  background-color: #333;
+  cursor: pointer;
+}
+
+li {
+  float: left;
+  color: white;
+  justify-content: center;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+
+}
+
+li a:link
+{
+   color: #5e27a5;
+   text-decoration: none;
+}
+li a:visited
+{
+   color:  white;
+   text-decoration: none;
+}
+a.list-icon-colour:hover
+{
+   color:  white;
+   text-decoration: none;
+}
+li a:active
+{
+   color: white;
+   text-decoration: none;
+}
+
+.active {
+  background-color: #5e27a5;
+}
+
+.title {
+    color: white;
+    font-size: calc(20px + 2vmin);
+    text-align: center;
+    position: relative;
+    background-color: #5e27a5;
+    padding: 3% 1%;
+    }
+
+.info {
+    font-size: 1.2em;
+    text-align: center;
+    position: relative;
+  }
+
+.list {
+  position: relative;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.list-item {
+  display: inline-block;
+  list-style: none;
+  width: 14%;
+  text-align: center;
+  flex-flow: column;
+  position: relative;
+  }
+
+.list-icon {
+  font-size: 3.3em;
+  transition: all 0.5s ease;
+  display: inline-block;
+  }
+
+.list-icon-colour {
+  color: #5e27a5;
+  }
+
+.list-icon:hover {
+  transform: rotate(360deg);
+  border-radius: 10px;
+  opacity: 0.6;
+  }
+
+a.list-icon-colour:link
+{
+   color: #5e27a5;
+   text-decoration: none;
+}
+a.list-icon-colour:visited
+{
+   color:  #5e27a5;
+   text-decoration: none;
+}
+a.list-icon-colour:hover
+{
+   color:  #5e27a5;
+   text-decoration: none;
+}
+a.list-icon-colour:active
+{
+   color:  #55209b;
+   text-decoration: none;
+}
+
+.navbarLinks {
+  color: white;
+}
+
+.homeActive:hover{
+  background-color: #5e27a5;
+}
+
+.headerBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  width: 28em;
+  height: 15em;
+}
+
+.openingStatement {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
+.Logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  text-align: center;
+  width: 18em;
+  height: 18em;
+}
+
+.contactStatement{
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: calc(20px);
+  transition: 0.3s;
+}
+
+#chevron {
+  position: relative;
+  top: 100px;
+  text-align: center;
+  padding: 12px;
+  margin-bottom: 6px;
+  height: 60px;
+  width: 200px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.active, .accordion:hover {
+  color:#5e27a5;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.accordion:after {
+  content: '\21D5';
+  color:#444;
+  font-weight: bold;
+  float: right;
+  margin-left: 10px;
+}
+
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  font-size: calc(8px + 1vmin);
+  transition: max-height 0.5s ease-out;
+}
+
+.accordionSection {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.panel1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 440px;
+  height: 240px;
+  display: block;
+}
+
+.panel2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  height: 290px;
+  display: block;
+}
+
+.panel4 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 150px;
+  display: block;
+}
+
+.slideshow-container {
+  max-width: 650px;
+  position: relative;
+  margin: auto;
+  height: 480px;
+}
+
+.mySlides {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  text-align: center;
+}
+
+.dotAlign {
+  text-align: center;
+}
+
+.dot:hover {
+  background-color: #5e27a5;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

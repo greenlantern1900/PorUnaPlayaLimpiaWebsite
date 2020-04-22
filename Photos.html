@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="./Images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./Images/favicon-16x16.png">
+    <link rel="stylesheet" type="text/css" href="./css/app.component.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta content='width=device-width, initial-scsale=1' name='viewport'/>
+
+
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  </head>
+  <body>
+    <meta charset="utf-8">
+    <title>Por una Playa limpia a la vez</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">    
+    <div>
+        <ul>
+          <li class="navbarLinks"><a href="index.html" class="active homeActive">Inicio</a></li>
+          <li class="navbarLinks"><a href="Photos.html">Fotos</a></li>
+          <li class="navbarLinks"><a href="Information.html">Informacion</a></li>
+          <li class="navbarLinks"><a href="Acknowledgements.html">Reconocimientos</a></li>
+          <li class="navbarLinks"><a href="Replicas.html">Replicas</a></li>
+          <li class="navbarLinks"><a href="Contact.html" >Contacto</a></li>
+        </ul>
+    </div>
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', layout:
+      google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element')
+    }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      <h2 class="title">Por una Playa Limpia a la Vez</h2>
+      <br>
+      <img class="headerBanner" src="Images/HeaderPic.png"> 
+    </div>
+    <br>
+    <div>
+      <p class="contactStatement">
+        Agradecimientos al Hotel Maguipi, Valle Scout y Asociacion Scout de Colombia.
+      </p>
+      <br>
+      <div class="slideshow-container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 7</div>
+            <img src="Images/inicioCali.png" style="width: 100%; height: 100%; margin-left: auto;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 7</div>
+            <img src="Images/IMG_4533.jpeg" style="width:100%; height: 100%;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 7</div>
+            <img src="Images/IMG_4940.PNG" style="width:100%; height: 100%;">
+        </div>
+          <div class="mySlides">
+            <div class="numbertext">4 / 7</div>
+            <img src="Images/IMG_4941.PNG" style="width:100%; height: 100%;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 7</div>
+            <img src="Images/IMG_4942.PNG" style="width:100%; height: 100%;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 7</div>
+            <img src="Images/IMG_4529.PNG" style="width:100%; height: 100%;">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">7 / 7</div>
+            <img src="Images/IMG_4530.PNG" style="width:100%; height: 100%;">
+        </div>
+        <a class="prev" onClick="plusSlides(-1)">&#10094</a>
+        <a class="next" onClick="plusSlides(1)">&#10095</a>
+      </div>
+      <br>
+      
+      <div class="dotAlign">
+        <span class="dot" onClick="currentSlide(1)"></span>
+        <span class="dot" onClick="currentSlide(2)"></span>
+        <span class="dot" onClick="currentSlide(3)"></span>
+      </div>
+
+      <script>
+          var slideIndex = 1;
+          showSlides(slideIndex);
+
+          function plusSlides(n) {
+              showSlides(slideIndex += n);
+          }
+
+          function currentSlide(n) {
+              showSlides(slideIndex = n);
+          }
+
+          function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex - 1].style.display = "block";
+              dots[slideIndex - 1].className += " active";
+          }
+      </script>
+
+      
+
+
+      <br>
+      <br>
+    </div>
+      <br>
+    <img class="Logo" src="Images/Logo.png">     
+    <br> 
+    <br> 
+    <br> 
+    <div>       
+      <ul>
+        <li class="navbarLinks"><a href="index.html" class="active homeActive">Inicio</a></li>
+        <li class="navbarLinks"><a href="Photos.html">Fotos</a></li>
+        <li class="navbarLinks"><a href="Information.html">Informacion</a></li>
+        <li class="navbarLinks"><a href="Acknowledgements.html">Reconocimientos</a></li>
+        <li class="navbarLinks"><a href="Replicas.html">Replicas</a></li>
+        <li class="navbarLinks"><a href="Contact.html" >Contacto</a></li>
+      </ul>
+    </div>
+  </body>
+  
+</html>
