@@ -127,22 +127,22 @@ li a:active
 
 a.list-icon-colour:link
 {
-   color: #5e27a5;
+   color: white;
    text-decoration: none;
 }
 a.list-icon-colour:visited
 {
-   color:  #5e27a5;
+   color: white;
    text-decoration: none;
 }
 a.list-icon-colour:hover
 {
-   color:  #5e27a5;
+   color:  white;
    text-decoration: none;
 }
 a.list-icon-colour:active
 {
-   color:  #55209b;
+   color: white;
    text-decoration: none;
 }
 
